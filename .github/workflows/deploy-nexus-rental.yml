@@ -3,7 +3,7 @@ name: Build and Push Docker Compose Images
 on:
   push:
     branches: [  master ]
-# testing automation on feature branches 
+# testing yimbuh automation on feature branches 
 jobs:
   build-and-push:
     runs-on: ubuntu-la-angelatest
